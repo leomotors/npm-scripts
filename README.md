@@ -1,6 +1,6 @@
 # my-npm-automation or leomotors-automation
 
-As it's name suggest, it's a piece of code that I used alot, so I decided to put in npm then I can access it easily.
+As its name suggests, it's a piece of code that I used a lot, so I decided to put it in npm then I can access it easily.
 
 You are free to use this if you want the same thing as mine.
 

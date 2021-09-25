@@ -1,7 +1,7 @@
 {
   "name": "leomotors-automation",
-  "version": "1.0.0",
-  "description": "Auto Increment your Package Version everytime you run specified command",
+  "version": "1.0.1",
+  "description": "As its name suggests, it's a piece of code that I used a lot, so I decided to put it in npm then I can access it easily.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Leomotors/my-npm-automation.git"
