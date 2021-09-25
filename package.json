@@ -1,17 +1,17 @@
 {
-  "name": "auto-increment-pkg-version",
+  "name": "leomotors-automation",
   "version": "1.0.0",
   "description": "Auto Increment your Package Version everytime you run specified command",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Leomotors/auto-increment-pkg-version.git"
+    "url": "git+https://github.com/Leomotors/my-npm-automation.git"
   },
   "author": "Leomotors",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Leomotors/auto-increment-pkg-version/issues"
+    "url": "https://github.com/Leomotors/my-npm-automation/issues"
   },
-  "homepage": "https://github.com/Leomotors/auto-increment-pkg-version",
+  "homepage": "https://github.com/Leomotors/my-npm-automation",
   "dependencies": {
     "chalk": "^4.1.2"
   }
