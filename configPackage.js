@@ -1,11 +1,12 @@
+#!/usr/bin/env node
+
 // * Config to config.ts
 
-/* eslint-disable */
+// @ts-check
 
 process.env.TZ = "Asia/Bangkok";
 
 const fs = require("fs");
-const chalk = require("chalk");
 
 var package_data = JSON.parse(fs.readFileSync("./package.json").toString());
 const version = package_data.version;
@@ -34,4 +35,4 @@ export const BuildTime = "${formattedDate}";
 `;
 
 fs.writeFileSync("./src/config.ts", pkgInfoFile);
-console.log(chalk.green("[configPackage.js] Config Success\n"));
+console.log("\u001b[32m[configPackage.js] Config Success\n\u001b[0m");
