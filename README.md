@@ -17,17 +17,15 @@ configPackage.js: Put some metadata as src/config.ts
 ### configPackage.js Output
 
 ```ts
-export const Version = "1.0.1";
-export const BuildTime = "2021-09-25 19:33:04";
+export const Version = "2.0.1";
+export const BuildTime = "2022-01-14 19:54:24";
 ```
 
 ## Example Usage
 
 ```
 "scripts": {
-    "dev": "node node_modules/leomotors-automation/incrementVersion.js && node node_modules/leomotors-automation/configPackage.js && vite",
-    "build": "node node_modules/leomotors-automation/configPackage.js && vite build",
-    "serve": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json"
+    "dev": "lm-inc && lm-config && smth dev",
+    "build": "lm-config && smth build",
 }
 ```
