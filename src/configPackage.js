@@ -29,10 +29,12 @@ const sec = _addZero(d.getSeconds());
 
 var formattedDate = `${year}-${month}-${day} ${hour}:${min}:${sec}`;
 
+const targetPath = process.argv[2] || "src/config.ts";
+
 const pkgInfoFile = `/* eslint-disable */
 export const Version = "${version}";
 export const BuildTime = "${formattedDate}";
 `;
 
-fs.writeFileSync("./src/config.ts", pkgInfoFile);
+fs.writeFileSync(targetPath, pkgInfoFile);
 console.log("\u001b[32m[configPackage.js] Config Success\n\u001b[0m");

@@ -1,6 +1,6 @@
 {
   "name": "leomotors-automation",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "As its name suggests, it's a piece of code that I used a lot, so I decided to put it in npm then I can access it easily.",
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/Leomotors/my-npm-automation",
   "bin": {
-    "lm-config": "./configPackage.js",
-    "lm-inc": "./incrementVersion.js"
+    "lm-config": "./src/configPackage.js",
+    "lm-inc": "./src/incrementVersion.js"
   }
 }

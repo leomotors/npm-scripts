@@ -14,16 +14,18 @@ incrementVersion.js: Increment Patch Number by 1 when called
 
 configPackage.js: Put some metadata as src/config.ts
 
+- Parameter: File Path, in case you want to override default
+
 ### configPackage.js Output
 
 ```ts
-export const Version = "2.0.1";
-export const BuildTime = "2022-01-14 19:54:24";
+export const Version = "3.0.0";
+export const BuildTime = "2022-01-24 17:06:58";
 ```
 
 ## Example Usage
 
-```
+```json
 "scripts": {
     "dev": "lm-inc && lm-config && smth dev",
     "build": "lm-config && smth build",
