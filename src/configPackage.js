@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
-// * Config to config.ts
+// * Config to $2
 
 // @ts-check
 
-process.env.TZ = "Asia/Bangkok";
+process.env.TZ = process.argv[3] || "Asia/Bangkok";
 
 const fs = require("fs");
 
@@ -32,7 +32,9 @@ var formattedDate = `${year}-${month}-${day} ${hour}:${min}:${sec}`;
 const targetPath = process.argv[2] || "src/config.ts";
 
 const pkgInfoFile = `/* eslint-disable */
+// prettier-ignore
 export const Version = "${version}";
+// prettier-ignore
 export const BuildTime = "${formattedDate}";
 `;
 
