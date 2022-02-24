@@ -18,6 +18,6 @@ jobs:
         uses: Leomotors/auto-publish-release@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          RELEASE_TITLE: "My NPM Automation {VERSION}"
+          RELEASE_TITLE: "@leomotors/scripts {VERSION}"
           VERSION_MUST_INCREASE: true
           ALWAYS_GENERATE_NOTES: true

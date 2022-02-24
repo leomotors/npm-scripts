@@ -1,4 +1,9 @@
-# my-npm-automation or leomotors-automation
+# @leomotors/automation
+
+[![](https://img.shields.io/npm/v/@leomotors/automation.svg?maxAge=3600)](https://www.npmjs.com/package/@leomotors/automation)
+[![](https://img.shields.io/npm/dt/@leomotors/automation.svg?maxAge=3600)](https://www.npmjs.com/package/@leomotors/automation)
+
+_Most of the download probably come from me, 😂_
 
 As its name suggests, it's a piece of code that I used a lot, so I decided to put it in npm then I can access it easily.
 
@@ -10,9 +15,11 @@ Here is some info in case you wonder what I'm doing.
 
 ## Scripts
 
-incrementVersion.js (lm-inc): Increment Patch Number by 1 when called
+_One you install this package, these scripts will be installed to `node_modules/.bin`_
 
-configPackage.js (lm-config): Put some metadata into specified file (Default: src/config.ts)
+lm-inc: Increment Patch Number by 1 when called
+
+lm-config: Put some metadata into specified file (Default: src/config.ts)
 
 ```
 lm-config {file name} {time zone (Default: Asia/Bangkok)}
