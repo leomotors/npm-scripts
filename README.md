@@ -3,19 +3,20 @@
 [![](https://img.shields.io/npm/v/@leomotors/automation.svg?maxAge=3600)](https://www.npmjs.com/package/@leomotors/automation)
 [![](https://img.shields.io/npm/dt/@leomotors/automation.svg?maxAge=3600)](https://www.npmjs.com/package/@leomotors/automation)
 
-_Most of the download probably come from me, 😂_
+_Most of the downloads probably came from me, 😂_
 
-As its name suggests, it's a piece of code that I used a lot, so I decided to put it in npm then I can access it easily.
+As its name suggests, it's a scripts that I used a lot in nodejs project,
+so I decided to put it in npm, so that I can access it easily.
 
-You are free to use this if you want the same thing as mine.
+You are free to use this if you want to do the same thing.
 
-Please keep in mind that breaking change can be made at any point.
+But, please keep in mind that breaking change can be made at any point.
 
 Here is some info in case you wonder what I'm doing.
 
 ## Scripts
 
-_One you install this package, these scripts will be installed to `node_modules/.bin`_
+_Once you install this package, these scripts will be installed to `node_modules/.bin`_
 
 lm-inc: Increment Patch Number by 1 when called
 
