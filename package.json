@@ -1,6 +1,6 @@
 {
   "name": "@leomotors/scripts",
-  "version": "3.0.3",
+  "version": "3.0.4",
   "description": "As its name suggests, it's a scripts that I used a lot in nodejs project, so I decided to put it in npm, so that I can access it easily.",
   "repository": {
     "type": "git",
