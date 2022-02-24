@@ -1,7 +1,7 @@
-# @leomotors/automation
+# @leomotors/scripts
 
-[![](https://img.shields.io/npm/v/@leomotors/automation.svg?maxAge=3600)](https://www.npmjs.com/package/@leomotors/automation)
-[![](https://img.shields.io/npm/dt/@leomotors/automation.svg?maxAge=3600)](https://www.npmjs.com/package/@leomotors/automation)
+[![](https://img.shields.io/npm/v/@leomotors/scripts.svg?maxAge=3600)](https://www.npmjs.com/package/@leomotors/scripts)
+[![](https://img.shields.io/npm/dt/@leomotors/scripts.svg?maxAge=3600)](https://www.npmjs.com/package/@leomotors/scripts)
 
 _Most of the downloads probably came from me, 😂_
 
