@@ -20,7 +20,7 @@ _Once you install this package, these scripts will be installed to `node_modules
 
 lm-inc: Increment Patch Number by 1 when called
 
-lm-config: Put some metadata into specified file (Default: src/config.ts)
+lm-config: Put some metadata into specified file (Default: src/config.g.ts)
 
 ```
 lm-config {file name} {time zone (Default: Asia/Bangkok)}

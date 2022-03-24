@@ -29,7 +29,7 @@ const sec = _addZero(d.getSeconds());
 
 var formattedDate = `${year}-${month}-${day} ${hour}:${min}:${sec}`;
 
-const targetPath = process.argv[2] || "src/config.ts";
+const targetPath = process.argv[2] || "src/config.g.ts";
 
 const pkgInfoFile = `/* eslint-disable */
 // prettier-ignore
